@@ -1,0 +1,8 @@
+Guides
+<ul>
+  <% @guides.each_with_index do |guide, i| %>
+  <li>
+    <a href="#" id="guide<%= i %>"><%= guide %></a>
+  </li>
+  <% end %>
+</ul>
