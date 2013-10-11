@@ -1,8 +1,6 @@
-Guides
-<ul>
-  <% @guides.each_with_index do |guide, i| %>
-  <li>
-    <a href="#" id="guide<%= i %>"><%= guide %></a>
-  </li>
-  <% end %>
-</ul>
+<div id="guideList"></div>
+
+<script type="text/javascript" src="guide.js"></script>
+<script type="text/javascript">
+  Guides({guids: <%= @guide_guids.to_json %>});
+</script>
