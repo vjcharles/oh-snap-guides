@@ -8,21 +8,27 @@ Guides
     gem install json 
     ruby guide_app.rb
 
-### Go to ###
+### To Use ###
 
-http://0.0.0.0:4567
+* http://0.0.0.0:4567
 
-or add a list of comma separated guide guids
+* http://oh-snap-guides.herokuapp.com
 
-http://0.0.0.0:4567/?guide_guids=0bed6fee853b4f4e966cec0f1210079,b995492d5e7943e3b2757a88fe3ef7c6,0bed6fee853b4f4e966cec0f1210079d
- 
-scroll through small images, click to view original size
+  or add a list of comma separated guide guids
 
-tested on Chrome and Safari iPad
+  http://0.0.0.0:4567/?guide_guids=0bed6fee853b4f4e966cec0f1210079,b995492d5e7943e3b2757a88fe3ef7c6,0bed6fee853b4f4e966cec0f1210079d
 
-### known issues ###
+* scroll through small images, click to view original size
+
+### To Know ###
+
+* tested on chrome and safari ipad
+
+* or visit the live demo on heroku
 
 * original sized images aren't shown in entirety
+
+* loading full-sized images on demo site is deathly slow
+
 * no tests
-* no exception handling
 
